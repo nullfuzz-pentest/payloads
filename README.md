@@ -1,7 +1,7 @@
 
 <h1 align="center">SSRF Payloads</h1>
 
-<h3>file:/</h3>
+<h3>file:</h3>
 ## /etc/passwd
 
 <pre><code>
