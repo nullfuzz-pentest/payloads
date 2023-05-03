@@ -37,10 +37,12 @@ http://%31%32%37%2E%30%2E%30%2E%31
 http://127.000.000.001
 
 
-<h1 align="center">Path traversal Payloads</h1>
-<h3>/etc/passwd</h3>
+
 
 </code></pre>
+
+<h1 align="center">Path traversal Payloads</h1>
+<h3>/etc/passwd</h3>
 
 <pre><code>
 etc\passwd
